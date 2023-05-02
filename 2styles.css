@@ -1,0 +1,140 @@
+.main1{
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-image: url(file:///C:/Users/Migo/Downloads/dsaasasaswqw.jpg);
+}
+
+.head1{
+  font-size: 30px;
+  margin-top: 63px;
+  margin-bottom: 50px ;
+  width: 250vh;
+  margin-left: px;
+  padding-bottom: 40px;
+  border-right: 200px;
+  font-family: Consolas;
+  color: rgb(0, 0, 0);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  border-right: 200px;
+  background-color: rgba(255, 253, 253, 0.534);
+
+    overflow: hidden; /* Hide overflowing characters */
+    white-space: nowrap; /* Prevent line breaks */
+    letter-spacing: .5em; /* Add letter spacing to text */
+    animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+    /* Animate typing with 40 steps, then blink the cursor */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  25% { border-color: orange }
+}
+.box{
+  color: #ffffff;
+    background-color: rgba(35, 33, 33, 0.774);
+    display: flex;
+    margin-top: 100px;
+    height: 250px;
+    width: 500px;
+    margin-left: 100px;
+    padding-right: 600px;
+    padding-left: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    font-family: Consolas;
+
+}
+
+.educ1{
+    text-align: left;
+    display: flex;
+    height: 200px;
+    margin-left: 0;
+    padding-left: 25px;
+}
+
+.imgg{
+    align-self: center;
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 100;
+    border-top: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.imgg1{
+    height: 350px;
+    width: 50vh;
+    box-shadow: 0 0 0 5px #ffffff;
+    padding: 5px;   
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    background-position: fixed;
+    
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: Consolas;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.navilist{
+  position: relative;
+}
+
+
+

@@ -1,0 +1,182 @@
+body{
+    background-image: url(file:///C:/Users/Migo/Downloads/blurredbg.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    position: fixed;
+}
+
+.hd1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px ;
+    font-family: Consolas;
+    color: rgb(255, 255, 255);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 10px;
+    border: 10px;
+    background-color: rgba(0, 0, 0, 0.534);
+
+
+    overflow: hidden; /* Hide overflowing characters */
+    white-space: nowrap; /* Prevent line breaks */
+    letter-spacing: .5em; /* Add letter spacing to text */
+    animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+    /* Animate typing with 40 steps, then blink the cursor */
+}
+
+.hd3{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px ;
+  font-family: Consolas;
+  color: rgb(0, 0, 0);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  padding: 10px;
+  border: 10px;
+  background-color: rgba(255, 253, 253, 0.534);
+
+
+  overflow: hidden; /* Hide overflowing characters */
+  white-space: nowrap; /* Prevent line breaks */
+  letter-spacing: .5em; /* Add letter spacing to text */
+  animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+  /* Animate typing with 40 steps, then blink the cursor */
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    25% { border-color: orange }
+  }
+
+.image2{
+    height: 100px;
+    width: 10px;
+    background-size: contain;
+    
+}
+
+.frontImage{
+    align-self: center;
+    position: relative  ;
+    display: inline-block;
+    width: 1300px;
+    height: auto;
+    border-top: 15px;
+    padding-top: 15px;
+    margin-top: px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.overlay a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.frontImage1{
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 0 0 5px #ffffff;
+  padding: 5px;   
+  border-radius: 50%;
+  border: 0px;
+  display: block;
+  margin: auto;
+  border-top: 100px;
+  background-position: fixed;
+
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: fade-in 2s ease-in-out forwards;
+}
+
+
+@keyframes fade-in {
+  from { opacity: 0 } /* Start with opacity 0 */
+  to { opacity: 1 } /* End with opacity 1 */
+}
+
+
+.frontImage:hover .textOverlay {
+    opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: Consolas;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.navilist{
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
